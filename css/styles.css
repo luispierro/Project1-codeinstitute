@@ -225,7 +225,7 @@ input[type="submit"]:hover {
   .button-link {
     display: inline-block;
     text-decoration: none;
-    font-size: 10px;
+    font-size: clamp(4px, 1vw, 10px); /* Responsive font size */
     font-weight: bold;
     color: #fff;
     background-color: #007BFF; /* Blue background */
