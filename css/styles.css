@@ -8,7 +8,7 @@ html{
 body {
     
     background-color: #F5F5F5; /* Cor bege */
-    padding: 0 50px;
+    padding: 0 25px;
 
     
 }
@@ -74,7 +74,7 @@ footer p{
     font-family: 'Open Sans', sans-serif;
     color: #fff;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 11px;
     padding: 10px 15px;
     display: block;
     transition: background-color 0.3s ease;
@@ -87,16 +87,16 @@ footer p{
 }
 
 .content {
-    margin-top: 10px; /* Same height as the header to avoid content being hidden */
+    margin-top: 25px; /* Same height as the header to avoid content being hidden */
     flex: 1 1 auto;  /*grow vertically*/
     padding-top: 2rem;
-    padding-bottom: 3.5rem; /* Space available between last element and bottom border of the page */
+    padding-bottom: 13.5rem; /* Space available between last element and bottom border of the page */
     background-color: #2C3E50;
     /* background-color: #A9A9A9; /* Branco translúcido */
     font-family: 'Open Sans', sans-serif;
     width: 100%;
     position:relative;
-    font-size: 2vw;
+    font-size: 10px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para o texto */
     
 }
@@ -127,11 +127,15 @@ footer p{
     border-radius: 8px;
    
 }
-
+.content-lifehacks ol {
+    padding: 5px 0 5px 12px;
+}
 
 .content-lifehacks li{
     color: #fff;
     margin: 0;
+    padding: 0;
+    text-align: justify;
     
 }
 .content-contact {
@@ -176,29 +180,34 @@ label {
 }
 
 input[type="text"], input[type="email"], textarea {
-            padding: 5px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-            margin-bottom: 20px;
-            font-size: 1em;
-            width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-size: 1em;
+    width: 100%;
 }
 
 input[type="submit"] {
-            background-color: #28a745;
-            color: #fff;
-            padding: 10px 15px;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 1vw;
-            width: 20%;
+    background-color: #28a745;
+    color: #fff;
+    padding: 5px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 2vw;
+    width: 20%;
             
+}
+input[type="submit"]::after{
+    content: 'OK';
 }
 
 input[type="submit"]:hover {
-            background-color: #218838;
+    background-color: #218838;
 }
+
+
 
 .content-articles {
     padding: 10px 40px 10px 40px;
