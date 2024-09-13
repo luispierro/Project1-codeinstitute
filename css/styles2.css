@@ -1,0 +1,910 @@
+/* Basic reset */
+html{
+    height: 100%;
+    font-size: 1vw;
+}
+
+
+body {
+    
+    background-color: #F5F5F5; /* Cor bege */
+    
+
+    
+}
+
+nav{
+    text-align: center;
+    color: #fff;
+    
+}
+
+/* Container for the header menu*/
+#menu {
+    background-color: #4e4e4e;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 100% gray;
+    z-index: 1000;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu h3{
+    text-align: center;
+    color: #fff;
+}
+
+footer{
+    background-color: #4e4e4e;
+    position: fixed;
+    padding: 10px 0px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: clamp(1rem, 1vw, 3rem);
+    width: 100%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+footer p{ 
+    display: inline;
+    font-size: 10px;
+}
+
+/* Navigation container */
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Each nav item */
+.nav-menu td {
+    margin: 0 10px;
+    padding: 0 10px;
+    
+}
+
+/* Link styles */
+.nav-menu a {
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 11px;
+    padding: 10px 15px;
+    display: block;
+    transition: background-color 0.3s ease;
+    
+}
+
+/* Hover effect */
+.nav-menu a:hover {
+    background-color: #929292;
+}
+
+.content {
+    margin-top: 30px; /* Same height as the header to avoid content being hidden */
+    flex: 1 1 auto;  /*grow vertically*/
+    padding-top: 2rem;
+    padding-bottom: 17rem; /* Space available between last element and bottom border of the page */
+    
+    
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    position:relative;
+    font-size: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Sombra para o texto */
+    
+}
+
+.content img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.content p{
+    text-align: justify;
+    color: #5C3D28;
+    font-size: 11px;
+    text-shadow: 2px 2px 4px rgba(64, 46, 31, 0.1); /* Sombra para o texto */
+}
+
+.content h3, h2 {
+    text-align:center;
+    color: #B89470;
+}
+.content-about {
+    padding: 10px 0px; 
+   
+}
+
+.content-about section{
+    padding: 0 10px;
+}
+
+
+
+.content-lifehacks {
+    padding: 10px 10px;
+   
+}
+.content-lifehacks ol {
+    padding: 5px 0 5px 12px;
+}
+
+.content-lifehacks li{
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    
+}
+.content-contact {
+    padding: 10px 40px 10px 30px;
+    background-color: #5c3d283d; /* Branco com 50% de opacidade */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+   
+}
+
+.content-contact h2{
+    color: #5C3D28;
+}
+
+.content-contact table{
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+    text-align: left;
+   
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+}
+
+legend {
+    
+    margin-bottom: 10px;
+    color: #fff
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #5C3D28;
+}
+
+input[type="text"], input[type="email"], textarea {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-size: 1em;
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #28a745;
+    color: #fff;
+    padding: 5px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 2vw;
+    width: 20%;
+            
+}
+input[type="submit"]::after{
+    content: 'OK';
+}
+
+input[type="submit"]:hover {
+    background-color: #218838;
+}
+
+
+
+.content-articles {
+    padding: 10px 40px 10px 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+}
+
+.container-iframe {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto; /* Center horizontally */
+    width: 80%;
+    padding-top: 42.86%; /* 21:9 Aspect Ratio*/
+    
+  }
+  
+  /* Then style the iframe to fit in the container div with full height and width */
+  .responsive-iframe {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .button-link1 {
+    display: inline-block;
+    text-decoration: none;
+    font-size: clamp(1rem, 2vw, 3rem); /* Responsive font size */
+    font-weight: bold;
+    color: #fff;
+    background-color: #4A6646; /* Blue background */
+    padding: 2px 4px;
+    
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.button-link1:hover {
+    background-color: #D3DDC8; /* Darker blue on hover */
+    transform: translateY(-3px); /* Slight lift effect */
+}
+.button-link1:active {
+    background-color: #344C35; /* Even darker blue when clicked */
+    transform: translateY(1px); /* Slight press effect */
+}
+.button-link1:focus {
+    outline: none;
+    box-shadow: 2px solid #4A6646; /* Blue focus outline */
+}
+
+.button-link2 {
+    display: inline-block;
+    text-decoration: none;
+    font-size: clamp(1rem, 2vw, 3rem); /* Responsive font size */
+    font-weight: bold;
+    color: #fff;
+    background-color: #3C5A6F; /* Slate Blue */
+    padding: 2px 4px;
+    
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.button-link2:hover {
+    background-color: #B2C2D1; /* Pale Blue on hover */
+    transform: translateY(-3px); /* Slight lift effect */
+}
+.button-link2:active {
+    background-color: #2B4557; /* Darker Slate Blue when clicked */
+    transform: translateY(1px); /* Slight press effect */
+}
+.button-link2:focus {
+    outline: none;
+    box-shadow: 2px solid #3C5A6F; /* Slate Blue outline */
+}
+
+.button-link3 {
+    display: inline-block;
+    text-decoration: none;
+    font-size: clamp(1rem, 2vw, 3rem); /* Responsive font size */
+    font-weight: bold;
+    color: #fff;
+    background-color: #5C3D28; /* Dark Sienna background */
+    padding: 2px 4px;
+    
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.button-link3:hover {
+    background-color: #D1B79C; /* Light Sand on hover */
+    transform: translateY(-3px); /* Slight lift effect */
+}
+.button-link3:active {
+    background-color: #402E1F; /* Darker Sienna when clicked */
+    transform: translateY(1px); /* Slight press effect */
+}
+.button-link3:focus {
+    outline: none;
+    box-shadow: 2px solid #5C3D28; /* Dark Sienna focus outline */
+}
+
+.button-link4 {
+    display: inline-block;
+    text-decoration: none;
+    font-size: clamp(1rem, 2vw, 3rem); /* Responsive font size */
+    font-weight: bold;
+    color: #fff;
+    background-color: #A3B1B3; /* Pale Silver background */
+    padding: 2px 4px;
+    
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.button-link4:hover {
+    background-color: #738083; /* Light Slate Gray on hover */
+    transform: translateY(-3px); /* Slight lift effect */
+}
+.button-link4:active {
+    background-color: #5C6B6D; /* Darker Slate Gray when clicked */
+    transform: translateY(1px); /* Slight press effect */
+}
+.button-link4:focus {
+    outline: none;
+    box-shadow: 2px solid #A3B1B3; /* Pale Silver focus outline */
+}
+
+
+
+.productivity{
+    padding: 10px 10px 20px 10px;
+    border-radius: 5px;
+    width: 60%;
+    position: relative;
+    left: 0;
+    right: 50%;
+    color: white;
+    background-color: #A9B39E;
+    text-align: justify;
+}
+
+.household{
+    padding: 10px 10px 20px 10px;
+    border-radius: 5px;
+    width: 60%;
+    position: relative;
+    right: 0;
+    left: 90px;
+    bottom: 30px;
+    color: white;
+    background-color: #889696;
+    text-align: justify;
+}
+
+.money{
+    padding: 10px 10px 20px 10px;
+    border-radius: 5px;
+    width: 60%;
+    position: relative;
+    left: 10px;
+    bottom: 40px;
+    color: white;
+    background-color: #B89470;
+    text-align: justify;
+}
+
+.health{
+    padding: 10px 10px 20px 10px;
+    border-radius: 5px;
+    width: 60%;
+    position: relative;
+    right: 0;
+    left: 110px;
+    bottom: 70px;
+    color: white;
+    background-color: #4B5354;
+    text-align: justify;
+}
+
+/* Tablet */
+@media (min-width: 600px) {
+    /* Basic reset */
+    html{
+        height: 100%;
+        
+    }
+
+
+    body {
+        
+        background-color: #F5F5F5; /* Cor bege */
+        padding: 0 50px;
+
+        
+    }
+
+    nav{
+        text-align: center;
+        color: #fff;
+        
+    }
+
+    /* Container for the header menu*/
+    #menu {
+        background-color: #4e4e4e;
+        /* padding: 1em; */
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        box-shadow: 100% gray;
+        z-index: 1000;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    #menu h3{
+        text-align: center;
+        color: #fff;
+    }
+
+    footer{
+        background-color: #4e4e4e;
+        position: fixed;
+        padding: 10px 0px;
+        text-align: center;
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: clamp(1rem, 1vw, 3rem);
+        width: 100%;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    footer p{ 
+        display: inline;
+        font-size: clamp(0.5rem, 2vw, 6rem);
+    }
+
+    /* Navigation container */
+    .nav-menu {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* Each nav item */
+    .nav-menu td {
+        margin: 0 10px;
+        padding: 0 20px;
+        
+    }
+
+    /* Link styles */
+    .nav-menu a {
+        font-family: 'Open Sans', sans-serif;
+        color: #fff;
+        text-decoration: none;
+        font-size: clamp(2.5rem, 1.5vw, 2.8rem);
+        padding: 10px 15px;
+        display: block;
+        transition: background-color 0.3s ease;
+        
+    }
+
+    /* Hover effect */
+    .nav-menu a:hover {
+        background-color: #929292;
+    }
+
+    .content {
+        margin-top: 10px; /* Same height as the header to avoid content being hidden */
+        flex: 1 1 auto;  /*grow vertically*/
+        padding-top: 2rem;
+        padding-bottom: 3.5rem; /* Space available between last element and bottom border of the page */
+        background-color: #2C3E50;
+        /* background-color: #A9A9A9; /* Branco translúcido */
+        font-family: 'Open Sans', sans-serif;
+        width: 100%;
+        position:relative;
+        font-size: 2vw;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para o texto */
+        
+    }
+
+    .content p{
+        text-align: justify;
+        color: #fff;
+    }
+
+    .content h3, h2 {
+        text-align:center;
+        color: #fff;
+    }
+    .content-about {
+        padding: 10px 40px 10px 40px;
+        border-radius: 8px;
+        background-color: rgba(255, 255, 255, 0.2); /* Branco com 50% de opacidade */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+    }
+
+
+
+    .content-lifehacks {
+        padding: 10px 40px 10px 40px;
+        background-color: rgba(255, 255, 255, 0.2);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+    
+    }
+
+
+    .content-lifehacks li{
+        color: #fff;
+        margin: 0;
+        
+    }
+    .content-contact {
+        padding: 10px 40px 10px 40px;
+        background-color: rgba(255, 255, 255, 0.2);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+    
+    }
+
+    .content-contact table{
+        padding: 10px 10px 10px 10px;
+        width: 100%;
+        text-align: left;
+    
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    fieldset {
+        border: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+
+    }
+
+    legend {
+        
+        margin-bottom: 10px;
+        color: #fff
+    }
+
+    label {
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: #fff
+    }
+
+    input[type="text"], input[type="email"], textarea {
+                padding: 5px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                margin-bottom: 20px;
+                font-size: 1em;
+                width: 100%;
+    }
+
+    input[type="submit"] {
+                background-color: #28a745;
+                color: #fff;
+                padding: 10px 15px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                font-size: 1vw;
+                width: 20%;
+                
+    }
+
+    input[type="submit"]:hover {
+                background-color: #218838;
+    }
+
+    .content-articles {
+        padding: 10px 40px 10px 40px;
+        background-color: rgba(255, 255, 255, 0.2);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        font-family: 'Open Sans', sans-serif;
+        color: #fff;
+    }
+
+    .container-iframe {
+        position: relative;
+        overflow: hidden;
+        margin: 0 auto; /* Center horizontally */
+        width: 80%;
+        padding-top: 42.86%; /* 21:9 Aspect Ratio*/
+        
+    }
+    
+    /* Then style the iframe to fit in the container div with full height and width */
+    .responsive-iframe {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .button-link {
+        display: inline-block;
+        text-decoration: none;
+        font-size: clamp(1rem, 2vw, 3rem); /* Responsive font size */
+        font-weight: bold;
+        color: #fff;
+        background-color: #007BFF; /* Blue background */
+        padding: 2px 4px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .button-link:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+        transform: translateY(-3px); /* Slight lift effect */
+    }
+    .button-link:active {
+        background-color: #004494; /* Even darker blue when clicked */
+        transform: translateY(1px); /* Slight press effect */
+    }
+    .button-link:focus {
+        outline: none;
+        box-shadow: 0 0 0 3px rgba(38, 143, 255, 0.5); /* Blue focus outline */
+    }
+}
+  
+  /* Desktop */
+@media (min-width: 900px) {
+    /* Basic reset */
+    html{
+        height: 100%;
+        
+    }
+
+
+    body {
+        
+        background-color: #F5F5F5; /* Cor bege */
+        padding: 0 50px;
+
+        
+    }
+
+    nav{
+        text-align: center;
+        color: #fff;
+        
+    }
+
+    /* Container for the header menu*/
+    #menu {
+        background-color: #4e4e4e;
+        /* padding: 1em; */
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        box-shadow: 100% gray;
+        z-index: 1000;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    #menu h3{
+        text-align: center;
+        color: #fff;
+    }
+
+    footer{
+        background-color: #4e4e4e;
+        position: fixed;
+        padding: 10px 0px;
+        text-align: center;
+        color: #fff;
+        font-family: 'Open Sans', sans-serif;
+        font-size: clamp(1rem, 1vw, 3rem);
+        width: 100%;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    footer p{ 
+        display: inline;
+        font-size: clamp(0.5rem, 2vw, 6rem);
+    }
+
+    /* Navigation container */
+    .nav-menu {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* Each nav item */
+    .nav-menu td {
+        margin: 0 10px;
+        padding: 0 20px;
+        
+    }
+
+    /* Link styles */
+    .nav-menu a {
+        font-family: 'Open Sans', sans-serif;
+        color: #fff;
+        text-decoration: none;
+        font-size: clamp(2.5rem, 1.5vw, 2.8rem);
+        padding: 10px 15px;
+        display: block;
+        transition: background-color 0.3s ease;
+        
+    }
+
+    /* Hover effect */
+    .nav-menu a:hover {
+        background-color: #929292;
+    }
+
+    .content {
+        margin-top: 10px; /* Same height as the header to avoid content being hidden */
+        flex: 1 1 auto;  /*grow vertically*/
+        padding-top: 2rem;
+        padding-bottom: 3.5rem; /* Space available between last element and bottom border of the page */
+        background-color: #2C3E50;
+        /* background-color: #A9A9A9; /* Branco translúcido */
+        font-family: 'Open Sans', sans-serif;
+        width: 100%;
+        position:relative;
+        font-size: 2vw;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para o texto */
+        
+    }
+
+    .content p{
+        text-align: justify;
+        color: #fff;
+    }
+
+    .content h3, h2 {
+        text-align:center;
+        color: #fff;
+    }
+    .content-about {
+        padding: 10px 40px 10px 40px;
+        border-radius: 8px;
+        background-color: rgba(255, 255, 255, 0.2); /* Branco com 50% de opacidade */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+    }
+
+
+
+    .content-lifehacks {
+        padding: 10px 40px 10px 40px;
+        background-color: rgba(255, 255, 255, 0.2);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+    
+    }
+
+
+    .content-lifehacks li{
+        color: #fff;
+        margin: 0;
+        
+    }
+    .content-contact {
+        padding: 10px 40px 10px 40px;
+        background-color: rgba(255, 255, 255, 0.2);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+    
+    }
+
+    .content-contact table{
+        padding: 10px 10px 10px 10px;
+        width: 100%;
+        text-align: left;
+    
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    fieldset {
+        border: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+
+    }
+
+    legend {
+        
+        margin-bottom: 10px;
+        color: #fff
+    }
+
+    label {
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: #fff
+    }
+
+    input[type="text"], input[type="email"], textarea {
+                padding: 5px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                margin-bottom: 20px;
+                font-size: 1em;
+                width: 100%;
+    }
+
+    input[type="submit"] {
+                background-color: #28a745;
+                color: #fff;
+                padding: 10px 15px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                font-size: 1vw;
+                width: 20%;
+                
+    }
+
+    input[type="submit"]:hover {
+                background-color: #218838;
+    }
+
+    .content-articles {
+        padding: 10px 40px 10px 40px;
+        background-color: rgba(255, 255, 255, 0.2);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        font-family: 'Open Sans', sans-serif;
+        color: #fff;
+    }
+
+    .container-iframe {
+        position: relative;
+        overflow: hidden;
+        margin: 0 auto; /* Center horizontally */
+        width: 80%;
+        padding-top: 42.86%; /* 21:9 Aspect Ratio*/
+        
+    }
+    
+    /* Then style the iframe to fit in the container div with full height and width */
+    .responsive-iframe {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .button-link {
+        display: inline-block;
+        text-decoration: none;
+        font-size: clamp(1rem, 2vw, 3rem); /* Responsive font size */
+        font-weight: bold;
+        color: #fff;
+        background-color: #007BFF; /* Blue background */
+        padding: 2px 4px;
+        border-radius: 5px;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+    .button-link:hover {
+        background-color: #0056b3; /* Darker blue on hover */
+        transform: translateY(-3px); /* Slight lift effect */
+    }
+    .button-link:active {
+        background-color: #004494; /* Even darker blue when clicked */
+        transform: translateY(1px); /* Slight press effect */
+    }
+    .button-link:focus {
+        outline: none;
+        box-shadow: 0 0 0 3px rgba(38, 143, 255, 0.5); /* Blue focus outline */
+    }
+}
