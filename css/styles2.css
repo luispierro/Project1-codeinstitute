@@ -27,7 +27,7 @@ nav{
     top: 0;
     left: 0;
     width: 100%;
-    box-shadow: 100% gray;
+    box-shadow: gray;
     z-index: 1000;
     font-family: 'Open Sans', sans-serif;
 }
@@ -439,7 +439,7 @@ input[type="submit"]:hover {
         top: 0;
         left: 0;
         width: 100%;
-        box-shadow: 100% gray;
+        box-shadow: gray;
         z-index: 1000;
         font-family: 'Open Sans', sans-serif;
     }
@@ -822,7 +822,7 @@ input[type="submit"]:hover {
         top: 0;
         left: 0;
         width: 100%;
-        box-shadow: 100% gray;
+        box-shadow: gray;
         z-index: 1000;
         font-family: 'Open Sans', sans-serif;
     }
