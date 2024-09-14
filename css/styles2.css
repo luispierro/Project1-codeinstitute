@@ -397,6 +397,17 @@ input[type="submit"]:hover {
     text-align: justify;
 }
 
+.content-contact-span{
+    padding: 10px 40px 10px 30px;
+    background-color: #5c3d283d; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    height: 100px;
+    text-align: center;
+    color: #5C3D28;
+    font-size: 18px;
+}
+
 /* Tablet */
 @media (min-width: 600px) {
     /* Basic reset */
@@ -766,6 +777,17 @@ input[type="submit"]:hover {
         color: white;
         background-color: #4B5354;
         text-align: justify;
+    }
+
+    .content-contact-span{
+        padding: 10px 40px 10px 30px;
+        background-color: #5c3d283d; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        height: 100px;
+        text-align: center;
+        color: #5C3D28;
+        font-size: 18px;
     }
 }
   
@@ -1146,5 +1168,16 @@ input[type="submit"]:hover {
         color: white;
         background-color: #4B5354;
         text-align: justify;
+    }
+
+    .content-contact-span{
+        padding: 10px 40px 10px 30px;
+        background-color: #5c3d283d; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border-radius: 8px;
+        height: 100px;
+        text-align: center;
+        color: #5C3D28;
+        font-size: 18px;
     }
 }
