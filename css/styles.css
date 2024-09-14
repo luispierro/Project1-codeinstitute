@@ -131,7 +131,7 @@ footer p{
     overflow: hidden;
     margin: 0 auto; /* Center horizontally */
     width: 100%;
-    padding-top: 42.86%; /* 21:9 Aspect Ratio*/
+    padding-top: 56.25%; /* 16:9 Aspect Ratio*/
     
   }
   
