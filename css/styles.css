@@ -91,7 +91,7 @@ footer p{
     flex: 1 1 auto;  /*grow vertically*/
     padding-top: 2rem;
     padding-bottom: 13.5rem; /* Space available between last element and bottom border of the page */
-    background-color: #2C3E50;
+    background-color: #B89470;
     /* background-color: #A9A9A9; /* Branco translúcido */
     font-family: 'Open Sans', sans-serif;
     width: 100%;
@@ -110,103 +110,6 @@ footer p{
     text-align:center;
     color: #fff;
 }
-.content-about {
-    padding: 10px 40px 10px 40px;
-    border-radius: 8px;
-    background-color: rgba(255, 255, 255, 0.2); /* Branco com 50% de opacidade */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-   
-}
-
-
-
-.content-lifehacks {
-    padding: 10px 40px 10px 40px;
-    background-color: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
-   
-}
-.content-lifehacks ol {
-    padding: 5px 0 5px 12px;
-}
-
-.content-lifehacks li{
-    color: #fff;
-    margin: 0;
-    padding: 0;
-    text-align: justify;
-    
-}
-.content-contact {
-    padding: 10px 40px 10px 40px;
-    background-color: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 8px;
-   
-}
-
-.content-contact table{
-    padding: 10px 10px 10px 10px;
-    width: 100%;
-    text-align: left;
-   
-}
-
-form {
-    display: flex;
-    flex-direction: column;
-    
-}
-
-fieldset {
-    border: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-
-}
-
-legend {
-    
-    margin-bottom: 10px;
-    color: #fff
-}
-
-label {
-    margin-bottom: 5px;
-    font-weight: bold;
-    color: #fff
-}
-
-input[type="text"], input[type="email"], textarea {
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-bottom: 20px;
-    font-size: 1em;
-    width: 100%;
-}
-
-input[type="submit"] {
-    background-color: #28a745;
-    color: #fff;
-    padding: 5px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 2vw;
-    width: 20%;
-            
-}
-input[type="submit"]::after{
-    content: 'OK';
-}
-
-input[type="submit"]:hover {
-    background-color: #218838;
-}
-
 
 
 .content-articles {
@@ -216,6 +119,11 @@ input[type="submit"]:hover {
     border-radius: 8px;
     font-family: 'Open Sans', sans-serif;
     color: #fff;
+}
+
+.content-articles ol, ul{
+    padding-left: 20px;
+    text-align: justify;
 }
 
 .container-iframe {
@@ -234,31 +142,6 @@ input[type="submit"]:hover {
     width: 100%;
     height: 100%;
   }
-
-  .button-link {
-    display: inline-block;
-    text-decoration: none;
-    font-size: clamp(1rem, 2vw, 3rem); /* Responsive font size */
-    font-weight: bold;
-    color: #fff;
-    background-color: #007BFF; /* Blue background */
-    padding: 2px 4px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-.button-link:hover {
-    background-color: #0056b3; /* Darker blue on hover */
-    transform: translateY(-3px); /* Slight lift effect */
-}
-.button-link:active {
-    background-color: #004494; /* Even darker blue when clicked */
-    transform: translateY(1px); /* Slight press effect */
-}
-.button-link:focus {
-    outline: none;
-    box-shadow: 0 0 0 3px rgba(38, 143, 255, 0.5); /* Blue focus outline */
-}
 
 /* Tablet */
 @media (min-width: 600px) {
@@ -329,7 +212,7 @@ input[type="submit"]:hover {
     /* Each nav item */
     .nav-menu td {
         margin: 0 10px;
-        padding: 0 20px;
+        padding: 0 10px;
         
     }
 
@@ -355,7 +238,7 @@ input[type="submit"]:hover {
         flex: 1 1 auto;  /*grow vertically*/
         padding-top: 2rem;
         padding-bottom: 3.5rem; /* Space available between last element and bottom border of the page */
-        background-color: #2C3E50;
+        background-color: #B89470;
         /* background-color: #A9A9A9; /* Branco translúcido */
         font-family: 'Open Sans', sans-serif;
         width: 100%;
@@ -368,100 +251,12 @@ input[type="submit"]:hover {
     .content p{
         text-align: justify;
         color: #fff;
+        font-size: clamp(0.5rem, 2vw, 6rem);
     }
 
     .content h3, h2 {
         text-align:center;
         color: #fff;
-    }
-    .content-about {
-        padding: 10px 40px 10px 40px;
-        border-radius: 8px;
-        background-color: rgba(255, 255, 255, 0.2); /* Branco com 50% de opacidade */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    
-    }
-
-
-
-    .content-lifehacks {
-        padding: 10px 40px 10px 40px;
-        background-color: rgba(255, 255, 255, 0.2);
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        border-radius: 8px;
-    
-    }
-
-
-    .content-lifehacks li{
-        color: #fff;
-        margin: 0;
-        
-    }
-    .content-contact {
-        padding: 10px 40px 10px 40px;
-        background-color: rgba(255, 255, 255, 0.2);
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        border-radius: 8px;
-    
-    }
-
-    .content-contact table{
-        padding: 10px 10px 10px 10px;
-        width: 100%;
-        text-align: left;
-    
-    }
-
-    form {
-        display: flex;
-        flex-direction: column;
-        
-    }
-
-    fieldset {
-        border: none;
-        margin: 0;
-        padding: 0;
-        text-align: center;
-
-    }
-
-    legend {
-        
-        margin-bottom: 10px;
-        color: #fff
-    }
-
-    label {
-        margin-bottom: 5px;
-        font-weight: bold;
-        color: #fff
-    }
-
-    input[type="text"], input[type="email"], textarea {
-                padding: 5px;
-                border: 1px solid #ccc;
-                border-radius: 4px;
-                margin-bottom: 20px;
-                font-size: 1em;
-                width: 100%;
-    }
-
-    input[type="submit"] {
-                background-color: #28a745;
-                color: #fff;
-                padding: 10px 15px;
-                border: none;
-                border-radius: 4px;
-                cursor: pointer;
-                font-size: 1vw;
-                width: 20%;
-                
-    }
-
-    input[type="submit"]:hover {
-                background-color: #218838;
     }
 
     .content-articles {
@@ -489,38 +284,14 @@ input[type="submit"]:hover {
         width: 100%;
         height: 100%;
     }
-
-    .button-link {
-        display: inline-block;
-        text-decoration: none;
-        font-size: clamp(1rem, 2vw, 3rem); /* Responsive font size */
-        font-weight: bold;
-        color: #fff;
-        background-color: #007BFF; /* Blue background */
-        padding: 2px 4px;
-        border-radius: 5px;
-        transition: background-color 0.3s ease, transform 0.3s ease;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
-    .button-link:hover {
-        background-color: #0056b3; /* Darker blue on hover */
-        transform: translateY(-3px); /* Slight lift effect */
-    }
-    .button-link:active {
-        background-color: #004494; /* Even darker blue when clicked */
-        transform: translateY(1px); /* Slight press effect */
-    }
-    .button-link:focus {
-        outline: none;
-        box-shadow: 0 0 0 3px rgba(38, 143, 255, 0.5); /* Blue focus outline */
-    }
 }
   
   /* Desktop */
-@media (min-width: 900px) {
+@media (min-width: 992px) {
     /* Basic reset */
     html{
         height: 100%;
+        font-size: 1vw;
         
     }
 
@@ -542,7 +313,6 @@ input[type="submit"]:hover {
     /* Container for the header menu*/
     #menu {
         background-color: #4e4e4e;
-        /* padding: 1em; */
         position: fixed;
         top: 0;
         left: 0;
@@ -550,11 +320,6 @@ input[type="submit"]:hover {
         box-shadow: 100% gray;
         z-index: 1000;
         font-family: 'Open Sans', sans-serif;
-    }
-
-    #menu h3{
-        text-align: center;
-        color: #fff;
     }
 
     footer{
@@ -573,7 +338,7 @@ input[type="submit"]:hover {
 
     footer p{ 
         display: inline;
-        font-size: clamp(0.5rem, 2vw, 6rem);
+        font-size: 16px;
     }
 
     /* Navigation container */
@@ -585,7 +350,7 @@ input[type="submit"]:hover {
     /* Each nav item */
     .nav-menu td {
         margin: 0 10px;
-        padding: 0 20px;
+        padding: 0 10px;
         
     }
 
@@ -594,7 +359,7 @@ input[type="submit"]:hover {
         font-family: 'Open Sans', sans-serif;
         color: #fff;
         text-decoration: none;
-        font-size: clamp(2.5rem, 1.5vw, 2.8rem);
+        font-size: 16px;
         padding: 10px 15px;
         display: block;
         transition: background-color 0.3s ease;
@@ -611,12 +376,11 @@ input[type="submit"]:hover {
         flex: 1 1 auto;  /*grow vertically*/
         padding-top: 2rem;
         padding-bottom: 3.5rem; /* Space available between last element and bottom border of the page */
-        background-color: #2C3E50;
-        /* background-color: #A9A9A9; /* Branco translúcido */
+        background-color: #B89470;
         font-family: 'Open Sans', sans-serif;
         width: 100%;
         position:relative;
-        font-size: 2vw;
+        font-size: 16px;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para o texto */
         
     }
@@ -624,100 +388,12 @@ input[type="submit"]:hover {
     .content p{
         text-align: justify;
         color: #fff;
+        font-size: clamp(0.5rem, 1.5vw, 6rem);
     }
 
     .content h3, h2 {
         text-align:center;
         color: #fff;
-    }
-    .content-about {
-        padding: 10px 40px 10px 40px;
-        border-radius: 8px;
-        background-color: rgba(255, 255, 255, 0.2); /* Branco com 50% de opacidade */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    
-    }
-
-
-
-    .content-lifehacks {
-        padding: 10px 40px 10px 40px;
-        background-color: rgba(255, 255, 255, 0.2);
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        border-radius: 8px;
-    
-    }
-
-
-    .content-lifehacks li{
-        color: #fff;
-        margin: 0;
-        
-    }
-    .content-contact {
-        padding: 10px 40px 10px 40px;
-        background-color: rgba(255, 255, 255, 0.2);
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        border-radius: 8px;
-    
-    }
-
-    .content-contact table{
-        padding: 10px 10px 10px 10px;
-        width: 100%;
-        text-align: left;
-    
-    }
-
-    form {
-        display: flex;
-        flex-direction: column;
-        
-    }
-
-    fieldset {
-        border: none;
-        margin: 0;
-        padding: 0;
-        text-align: center;
-
-    }
-
-    legend {
-        
-        margin-bottom: 10px;
-        color: #fff
-    }
-
-    label {
-        margin-bottom: 5px;
-        font-weight: bold;
-        color: #fff
-    }
-
-    input[type="text"], input[type="email"], textarea {
-                padding: 5px;
-                border: 1px solid #ccc;
-                border-radius: 4px;
-                margin-bottom: 20px;
-                font-size: 1em;
-                width: 100%;
-    }
-
-    input[type="submit"] {
-                background-color: #28a745;
-                color: #fff;
-                padding: 10px 15px;
-                border: none;
-                border-radius: 4px;
-                cursor: pointer;
-                font-size: 1vw;
-                width: 20%;
-                
-    }
-
-    input[type="submit"]:hover {
-                background-color: #218838;
     }
 
     .content-articles {
@@ -729,11 +405,16 @@ input[type="submit"]:hover {
         color: #fff;
     }
 
+    .content-articles ol, ul{
+        padding-left: 30px;
+        text-align: justify;
+    }
+
     .container-iframe {
         position: relative;
         overflow: hidden;
         margin: 0 auto; /* Center horizontally */
-        width: 80%;
+        width: 70%;
         padding-top: 42.86%; /* 21:9 Aspect Ratio*/
         
     }
@@ -744,30 +425,5 @@ input[type="submit"]:hover {
         top: 0;
         width: 100%;
         height: 100%;
-    }
-
-    .button-link {
-        display: inline-block;
-        text-decoration: none;
-        font-size: clamp(1rem, 2vw, 3rem); /* Responsive font size */
-        font-weight: bold;
-        color: #fff;
-        background-color: #007BFF; /* Blue background */
-        padding: 2px 4px;
-        border-radius: 5px;
-        transition: background-color 0.3s ease, transform 0.3s ease;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    }
-    .button-link:hover {
-        background-color: #0056b3; /* Darker blue on hover */
-        transform: translateY(-3px); /* Slight lift effect */
-    }
-    .button-link:active {
-        background-color: #004494; /* Even darker blue when clicked */
-        transform: translateY(1px); /* Slight press effect */
-    }
-    .button-link:focus {
-        outline: none;
-        box-shadow: 0 0 0 3px rgba(38, 143, 255, 0.5); /* Blue focus outline */
     }
 }
