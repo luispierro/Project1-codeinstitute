@@ -130,7 +130,7 @@ footer p{
     position: relative;
     overflow: hidden;
     margin: 0 auto; /* Center horizontally */
-    width: 80%;
+    width: 100%;
     padding-top: 42.86%; /* 21:9 Aspect Ratio*/
     
   }
