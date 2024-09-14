@@ -267,7 +267,7 @@ input[type="submit"]:hover {
 }
 .button-link1:focus {
     outline: none;
-    box-shadow: 2px solid #4A6646; /* Blue focus outline */
+    box-shadow: 2px #4A6646; /* Blue focus outline */
 }
 
 .button-link2 {
@@ -292,7 +292,7 @@ input[type="submit"]:hover {
 }
 .button-link2:focus {
     outline: none;
-    box-shadow: 2px solid #3C5A6F; /* Slate Blue outline */
+    box-shadow: 2px #3C5A6F; /* Slate Blue outline */
 }
 
 .button-link3 {
@@ -317,7 +317,7 @@ input[type="submit"]:hover {
 }
 .button-link3:focus {
     outline: none;
-    box-shadow: 2px solid #5C3D28; /* Dark Sienna focus outline */
+    box-shadow: 2px #5C3D28; /* Dark Sienna focus outline */
 }
 
 .button-link4 {
@@ -342,7 +342,7 @@ input[type="submit"]:hover {
 }
 .button-link4:focus {
     outline: none;
-    box-shadow: 2px solid #A3B1B3; /* Pale Silver focus outline */
+    box-shadow: 2px #A3B1B3; /* Pale Silver focus outline */
 }
 
 
@@ -651,7 +651,7 @@ input[type="submit"]:hover {
     }
     .button-link1:focus {
         outline: none;
-        box-shadow: 2px solid #4A6646; /* Blue focus outline */
+        box-shadow: 2px #4A6646; /* Blue focus outline */
     }
     
     .button-link2 {
@@ -676,7 +676,7 @@ input[type="submit"]:hover {
     }
     .button-link2:focus {
         outline: none;
-        box-shadow: 2px solid #3C5A6F; /* Slate Blue outline */
+        box-shadow: 2px #3C5A6F; /* Slate Blue outline */
     }
     
     .button-link3 {
@@ -701,7 +701,7 @@ input[type="submit"]:hover {
     }
     .button-link3:focus {
         outline: none;
-        box-shadow: 2px solid #5C3D28; /* Dark Sienna focus outline */
+        box-shadow: 2px #5C3D28; /* Dark Sienna focus outline */
     }
     
     .button-link4 {
@@ -726,7 +726,7 @@ input[type="submit"]:hover {
     }
     .button-link4:focus {
         outline: none;
-        box-shadow: 2px solid #A3B1B3; /* Pale Silver focus outline */
+        box-shadow: 2px #A3B1B3; /* Pale Silver focus outline */
     }
     
     .productivity{
@@ -1034,7 +1034,7 @@ input[type="submit"]:hover {
     }
     .button-link1:focus {
         outline: none;
-        box-shadow: 2px solid #4A6646; /* Blue focus outline */
+        box-shadow: 2px #4A6646; /* Blue focus outline */
     }
     
     .button-link2 {
@@ -1059,7 +1059,7 @@ input[type="submit"]:hover {
     }
     .button-link2:focus {
         outline: none;
-        box-shadow: 2px solid #3C5A6F; /* Slate Blue outline */
+        box-shadow: 2px #3C5A6F; /* Slate Blue outline */
     }
     
     .button-link3 {
@@ -1084,7 +1084,7 @@ input[type="submit"]:hover {
     }
     .button-link3:focus {
         outline: none;
-        box-shadow: 2px solid #5C3D28; /* Dark Sienna focus outline */
+        box-shadow: 2px #5C3D28; /* Dark Sienna focus outline */
     }
     
     .button-link4 {
@@ -1109,7 +1109,7 @@ input[type="submit"]:hover {
     }
     .button-link4:focus {
         outline: none;
-        box-shadow: 2px solid #A3B1B3; /* Pale Silver focus outline */
+        box-shadow: 2px #A3B1B3; /* Pale Silver focus outline */
     }
     
     .productivity{
