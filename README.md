@@ -10,7 +10,7 @@ Our Website on Tablets
 ![home page-tablet](images/about-us.png)
 
 Our Website on Mobiles
-![home page-Mobile](images/about-us1.png)
+![home page-Mobile](images/about-us1.jpg)
 
 Our Website on Desktops
 ![home page-desktop](images/about-us2.png)
