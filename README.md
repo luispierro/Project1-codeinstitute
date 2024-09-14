@@ -56,7 +56,46 @@ It was tested using the inspect feature of the chrome browser and my actual phon
 - HTML
   - While passing through the validator, it pointed for a lack of header for the <section> but it has a header right on top of it. And also it didn't like how I setted the width to '30px' which make no sense. [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fluispierro.github.io%2FProject1-codeinstitute%2F)
 
-  
+- CSS
+  - It has also complained about some usage of the box-shadow that made no sense for me. I have searched how to use the proportie, and it seems to be correct... [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fluispierro.github.io%2FProject1-codeinstitute%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=pt-BR)
+
+### Unfixed Bugs
+
+I couldn't make the image go behide the text when changif to bigger screens. 
+
+The footer text and image are not alligned vertically.
+
+## Deployment 
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - https://luispierro.github.io/Project1-codeinstitute/index.html
+
+## Credits 
+
+
+### Content 
+
+- The text for the Life hacks was taken Using AI, Gemini and Chat GPT. They have suggested the content of the hacks.
+- The icons in the footer were taken from [Flat Icon](https://www.flaticon.com/br/icones-gratis/redes-sociais)
+- The favicons in the title of the webpage were taken from [FavIcon.io](https://favicon.io/)
+
+### Media
+
+- The image used on the home  page are from This Open Source site [picjumbo](https://picjumbo.com/search/life+hacks)
+- The videoss used for the lifehacks blog page were taken from this the youtube. The channels are:
+  - [Engineering with Utsav](https://www.youtube.com/@EngineeringwithUtsav)
+  - [Aurelius Tjin](https://www.youtube.com/@AureliusTjin)
+  - [EISENHOWER](https://www.youtube.com/@EngineeringwithUtsav)
+  - [PlanwithLaken](https://www.youtube.com/@PlanwithLaken)
+  - [Koi](https://www.youtube.com/@KoiAcademy)
+  - [Smartin24562](https://www.youtube.com/@Smartin24562)
+  - [wikiHow](https://www.youtube.com/@wikiHow)  
+  - [Token](https://www.youtube.com/@Token6789)
+  - [Breathe and Flow](https://www.youtube.com/@BreatheAndFlow)
 
 
 
