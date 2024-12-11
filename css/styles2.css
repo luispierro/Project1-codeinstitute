@@ -264,7 +264,7 @@ input[type="submit"]:hover {
     font-size: clamp(1rem, 2vw, 3rem); /* Responsive font size */
     font-weight: bold;
     color: #fff;
-    background-color: #A3B1B3; /* Pale Silver background */
+    background-color: #68797A; /* Pale Silver background */
     padding: 2px 4px;
     transition: background-color 0.3s ease, transform 0.3s ease;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -289,7 +289,7 @@ input[type="submit"]:hover {
     left: 0;
     right: 50%;
     color: white;
-    background-color: #A9B39E;
+    background-color: #6A725E;
     text-align: justify;
 }
 .household{
@@ -301,7 +301,7 @@ input[type="submit"]:hover {
     left: 90px;
     bottom: 30px;
     color: white;
-    background-color: #889696;
+    background-color: #586464;
     text-align: justify;
 }
 .money{
@@ -312,7 +312,7 @@ input[type="submit"]:hover {
     left: 10px;
     bottom: 40px;
     color: white;
-    background-color: #B89470;
+    background-color: #755A3A;
     text-align: justify;
 }
 .health{
@@ -583,7 +583,7 @@ input[type="submit"]:hover {
         font-size: clamp(1rem, 2vw, 3rem); /* Responsive font size */
         font-weight: bold;
         color: #fff;
-        background-color: #A3B1B3; /* Pale Silver background */
+        background-color: #68797A; /* Pale Silver background */
         padding: 2px 4px;
         transition: background-color 0.3s ease, transform 0.3s ease;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -608,7 +608,7 @@ input[type="submit"]:hover {
         left: 0;
         right: 50%;
         color: white;
-        background-color: #A9B39E;
+        background-color: #6A725E;
         text-align: justify;
     }
     .household{
@@ -620,7 +620,7 @@ input[type="submit"]:hover {
         left: 250px;
         bottom: 30px;
         color: white;
-        background-color: #889696;
+        background-color: #586464;
         text-align: justify;
     }
     .money{
@@ -631,7 +631,7 @@ input[type="submit"]:hover {
         left: 10px;
         bottom: 40px;
         color: white;
-        background-color: #B89470;
+        background-color: #755A3A;
         text-align: justify;
     }
     .health{
@@ -902,7 +902,7 @@ input[type="submit"]:hover {
         font-size: clamp(8px, 2vw, 14px); /* Responsive font size */
         font-weight: bold;
         color: #fff;
-        background-color: #A3B1B3; /* Pale Silver background */
+        background-color: #68797A; /* Pale Silver background */
         padding: 2px 4px;
         transition: background-color 0.3s ease, transform 0.3s ease;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -929,7 +929,7 @@ input[type="submit"]:hover {
         left: 0;
         right: 50%;
         color: white;
-        background-color: #A9B39E;
+        background-color: #6A725E;
         text-align: justify;
     }
     .household{
@@ -943,7 +943,7 @@ input[type="submit"]:hover {
         left: 50%;
         bottom: 140px;
         color: white;
-        background-color: #889696;
+        background-color: #586464;
         text-align: justify;
     }
     .money{
@@ -956,7 +956,7 @@ input[type="submit"]:hover {
         left: 0;
         bottom: 100px;
         color: white;
-        background-color: #B89470;
+        background-color: #755A3A;
         text-align: justify;
     }
     .health{
