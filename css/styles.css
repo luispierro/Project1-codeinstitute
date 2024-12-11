@@ -43,15 +43,18 @@ footer p{
     display: inline;
     font-size: 10px;
 }
+header h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+}
 /* Navigation container */
 .nav-menu {
     display: flex;
     justify-content: space-between;
 }
-/* Each nav item */
-.nav-menu td {
-    margin: 0 10px;
-    padding: 0 10px;
+.column {
+    flex: 1; /* Equal column width */
 }
 /* Link styles */
 .nav-menu a {
@@ -68,7 +71,7 @@ footer p{
     background-color: #929292;
 }
 .content {
-    margin-top: 35px; /* Same height as the header to avoid content being hidden */
+    margin-top: 70px; /* Same height as the header to avoid content being hidden */
     flex: 1 1 auto;  /*grow vertically*/
     padding-top: 2rem;
     padding-bottom: 13.5rem; /* Space available between last element and bottom border of the page */
@@ -164,11 +167,6 @@ footer p{
         display: flex;
         justify-content: space-between;
     }
-    /* Each nav item */
-    .nav-menu td {
-        margin: 0 10px;
-        padding: 0 10px;
-    }
     /* Link styles */
     .nav-menu a {
         font-family: 'Open Sans', sans-serif;
@@ -184,7 +182,7 @@ footer p{
         background-color: #929292;
     }
     .content {
-        margin-top: 10px; /* Same height as the header to avoid content being hidden */
+        margin-top: 70px; /* Same height as the header to avoid content being hidden */
         flex: 1 1 auto;  /*grow vertically*/
         padding-top: 2rem;
         padding-bottom: 3.5rem; /* Space available between last element and bottom border of the page */
@@ -275,11 +273,6 @@ footer p{
         display: flex;
         justify-content: space-between;
     }
-    /* Each nav item */
-    .nav-menu td {
-        margin: 0 10px;
-        padding: 0 10px;
-    }
     /* Link styles */
     .nav-menu a {
         font-family: 'Open Sans', sans-serif;
@@ -295,7 +288,7 @@ footer p{
         background-color: #929292;
     }
     .content {
-        margin-top: 10px; /* Same height as the header to avoid content being hidden */
+        margin-top: 50px; /* Same height as the header to avoid content being hidden */
         flex: 1 1 auto;  /*grow vertically*/
         padding-top: 2rem;
         padding-bottom: 3.5rem; /* Space available between last element and bottom border of the page */

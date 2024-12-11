@@ -52,11 +52,6 @@ header h1 {
     display: flex;
     justify-content: space-between;
 }
-/* Each nav item */
-.nav-menu td {
-    margin: 0 10px;
-    padding: 0 10px;
-}
 .column {
     flex: 1; /* Equal column width */
 }
@@ -398,11 +393,6 @@ input[type="submit"]:hover {
     .column {
         flex: 1; /* Equal column width */
     }
-    /* Each nav item */
-    .nav-menu td {
-        margin: 0 10px;
-        padding: 0 10px;
-    }
     /* Link styles */
     .nav-menu a {
         font-family: 'Open Sans', sans-serif;
@@ -716,11 +706,6 @@ input[type="submit"]:hover {
     .nav-menu {
         display: flex;
         justify-content: space-between;
-    }
-    /* Each nav item */
-    .nav-menu td {
-        margin: 0 10px;
-        padding: 0 10px;
     }
     .column {
         flex: 1; /* Equal column width */
