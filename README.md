@@ -54,8 +54,8 @@ The user can contact our blog's team to any kind of problem or suggetion they ma
 
 ### Features Left to Implement
 
-- User Login;
-- Search for especific hacks,.
+- User Login: Using a database connection, javascript and python I will be able to make a login for the user so it can keep it's data, leave a comment and evaluate hacks.;
+- Search for especific hacks: I would need a data base connection and javascript so I can store the lifehacks and display it dynamically. And also that would make posible for the user to search in our database for a specific life hacks base on name, category or specific tool.
 
 ## Testing
 
@@ -73,9 +73,7 @@ It was tested using the inspect feature of the chrome browser and my actual phon
 
 ### Unfixed Bugs
 
-I couldn't make the image go behide the text when changif to bigger screens. 
-
-The footer text and image are not alligned vertically.
+No major bugs left to be fixed.
 
 ## Deployment 
 
