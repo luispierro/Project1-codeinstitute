@@ -19,20 +19,29 @@ Our dedicated team of writers and experts explores the latest trends, tests new 
 #### Smartphones
 <details>
   <summary>Smartphones</summary>
-  
+
   ![smartphone](images/wireframe-smartphone.jpg)
 </details>
 
 ### Screens
 
-Our Website on Tablets
+<details>
+  <summary>Our Website on Tablets</summary>
+
 ![home page-tablet](images/about-us.png)
+</details>
 
-Our Website on Mobiles
+<details>
+  <summary>Our Website on Mobiles</summary>
+
 ![home page-Mobile](images/about-us1.jpg)
+</details>
 
-Our Website on Desktops
+<details>
+  <summary>Our Website on Desktops</summary>
+
 ![home page-desktop](images/about-us2.png)
+</details>
 
 ## Features
 
