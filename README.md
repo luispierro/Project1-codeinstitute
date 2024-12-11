@@ -10,10 +10,18 @@ Our dedicated team of writers and experts explores the latest trends, tests new 
 ### Wireframes
 
 #### Desktop
-![desktop](images/wireframe-desktop.jpg)
+<details>
+  <summary>Desktop</summary>
+
+  ![desktop](images/wireframe-desktop.jpg)
+</details>
 
 #### Smartphones
-!![smartphone](images/wireframe-smartphone.jpg)
+<details>
+  <summary>Smartphones</summary>
+  
+  ![smartphone](images/wireframe-smartphone.jpg)
+</details>
 
 ### Screens
 
