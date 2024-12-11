@@ -66,7 +66,7 @@ It was tested using the inspect feature of the chrome browser and my actual phon
 ### Validator Testing 
 
 - HTML
-  - While passing through the validator, it pointed for a lack of header for the <section> but it has a header right on top of it. And also it didn't like how I setted the width to '30px' which make no sense. [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fluispierro.github.io%2FProject1-codeinstitute%2F)
+  - No issues passing thru the W3C validator [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fluispierro.github.io%2FProject1-codeinstitute%2F)
 
 - CSS
   - It has also complained about some usage of the box-shadow that made no sense for me. I have searched how to use the proportie, and it seems to be correct... [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fluispierro.github.io%2FProject1-codeinstitute%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=pt-BR)
