@@ -5,6 +5,18 @@ LifeHacks Today is your ultimate destination for smart, practical solutions to e
 
 Our dedicated team of writers and experts explores the latest trends, tests new ideas, and delivers actionable advice that you can apply immediately. At LifeHacks Today, we know how busy life can be, and our goal is to provide you with solutions that are not only effective but also easy to implement. Join our vibrant community of lifehackers and explore our categories, from productivity to wellness, and start making the most of every moment. Together, we’ll turn everyday problems into opportunities for smarter, more efficient living!
 
+## Design
+
+### Wireframes
+
+#### Desktop
+![desktop](images/wireframe-desktop.jpg)
+
+#### Smartphones
+!![smartphone](images/wireframe-smartphone.jpg)
+
+### Screens
+
 Our Website on Tablets
 ![home page-tablet](images/about-us.png)
 
