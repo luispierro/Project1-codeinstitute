@@ -83,7 +83,6 @@ footer p{
     max-width: 100%;
 }
 .content p{
-    text-align: justify;
     color: #5C3D28;
     font-size: 11px;
     text-shadow: 2px 2px 4px rgba(64, 46, 31, 0.1); /* Sombra para o texto */
@@ -108,7 +107,6 @@ footer p{
     color: #fff;
     margin: 0;
     padding: 0;
-    text-align: justify;
 }
 .content-contact {
     padding: 10px 40px 10px 30px;
@@ -290,7 +288,6 @@ input[type="submit"]:hover {
     right: 50%;
     color: white;
     background-color: #6A725E;
-    text-align: justify;
 }
 .household{
     padding: 10px 10px 20px 10px;
@@ -302,7 +299,6 @@ input[type="submit"]:hover {
     bottom: 30px;
     color: white;
     background-color: #586464;
-    text-align: justify;
 }
 .money{
     padding: 10px 10px 20px 10px;
@@ -313,7 +309,6 @@ input[type="submit"]:hover {
     bottom: 40px;
     color: white;
     background-color: #755A3A;
-    text-align: justify;
 }
 .health{
     padding: 10px 10px 20px 10px;
@@ -325,7 +320,6 @@ input[type="submit"]:hover {
     bottom: 70px;
     color: white;
     background-color: #4B5354;
-    text-align: justify;
 }
 .content-contact-span{
     padding: 10px 40px 10px 30px;
@@ -424,7 +418,6 @@ input[type="submit"]:hover {
         max-width: 100%;
     }
     .content p{
-        text-align: justify;
         color: #5C3D28;
         font-size: clamp(0.5rem, 2vw, 6rem);
         text-shadow: 2px 2px 4px rgba(64, 46, 31, 0.1); /* Sombra para o texto */
@@ -449,7 +442,6 @@ input[type="submit"]:hover {
         color: #fff;
         margin: 0;
         padding: 0;
-        text-align: justify;
     }
     .content-contact {
         padding: 10px 40px 10px 30px;
@@ -609,7 +601,6 @@ input[type="submit"]:hover {
         right: 50%;
         color: white;
         background-color: #6A725E;
-        text-align: justify;
     }
     .household{
         padding: 10px 10px 20px 10px;
@@ -621,7 +612,6 @@ input[type="submit"]:hover {
         bottom: 30px;
         color: white;
         background-color: #586464;
-        text-align: justify;
     }
     .money{
         padding: 10px 10px 20px 10px;
@@ -632,7 +622,6 @@ input[type="submit"]:hover {
         bottom: 40px;
         color: white;
         background-color: #755A3A;
-        text-align: justify;
     }
     .health{
         padding: 10px 10px 20px 10px;
@@ -644,7 +633,6 @@ input[type="submit"]:hover {
         bottom: 70px;
         color: white;
         background-color: #4B5354;
-        text-align: justify;
     }
     .content-contact-span{
         padding: 10px 40px 10px 30px;
@@ -744,7 +732,6 @@ input[type="submit"]:hover {
         display: none;
     }
     .content p{
-        text-align: justify;
         color: #5C3D28;
         font-size: 14px;
         text-shadow: 2px 2px 4px rgba(64, 46, 31, 0.1); /* Sombra para o texto */
@@ -770,7 +757,6 @@ input[type="submit"]:hover {
         color: #fff;
         margin: 0;
         padding: 0;
-        text-align: justify;
     }
     .content-contact {
         padding: 10px 40px 10px 30px;
@@ -930,7 +916,6 @@ input[type="submit"]:hover {
         right: 50%;
         color: white;
         background-color: #6A725E;
-        text-align: justify;
     }
     .household{
         padding: 10px 10px 20px 10px;
@@ -944,7 +929,6 @@ input[type="submit"]:hover {
         bottom: 140px;
         color: white;
         background-color: #586464;
-        text-align: justify;
     }
     .money{
         padding: 10px 10px 20px 10px;
@@ -957,7 +941,6 @@ input[type="submit"]:hover {
         bottom: 100px;
         color: white;
         background-color: #755A3A;
-        text-align: justify;
     }
     .health{
         padding: 10px 10px 20px 10px;
@@ -971,7 +954,6 @@ input[type="submit"]:hover {
         bottom: 240px;
         color: white;
         background-color: #4B5354;
-        text-align: justify;
     }
     .content-contact-span{
         padding: 10px 40px 10px 30px;
