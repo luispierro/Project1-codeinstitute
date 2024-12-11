@@ -3,26 +3,17 @@ html{
     height: 100%;
     font-size: 1vw;
 }
-
-
 body {
-    
     background-color: #F5F5F5; /* Cor bege */
     padding: 0 25px;
-
-    
 }
-
 nav{
     text-align: center;
     color: #fff;
-    
 }
-
 /* Container for the header menu*/
 #menu {
     background-color: #4e4e4e;
-    /* padding: 1em; */
     position: fixed;
     top: 0;
     left: 0;
@@ -31,12 +22,10 @@ nav{
     z-index: 1000;
     font-family: 'Open Sans', sans-serif;
 }
-
 #menu h3{
     text-align: center;
     color: #fff;
 }
-
 footer{
     background-color: #4e4e4e;
     position: fixed;
@@ -50,25 +39,20 @@ footer{
     right: 0;
     left: 0;
 }
-
 footer p{ 
     display: inline;
     font-size: 10px;
 }
-
 /* Navigation container */
 .nav-menu {
     display: flex;
     justify-content: space-between;
 }
-
 /* Each nav item */
 .nav-menu td {
     margin: 0 10px;
     padding: 0 10px;
-    
 }
-
 /* Link styles */
 .nav-menu a {
     font-family: 'Open Sans', sans-serif;
@@ -78,40 +62,31 @@ footer p{
     padding: 10px 15px;
     display: block;
     transition: background-color 0.3s ease;
-    
 }
-
 /* Hover effect */
 .nav-menu a:hover {
     background-color: #929292;
 }
-
 .content {
     margin-top: 25px; /* Same height as the header to avoid content being hidden */
     flex: 1 1 auto;  /*grow vertically*/
     padding-top: 2rem;
     padding-bottom: 13.5rem; /* Space available between last element and bottom border of the page */
     background-color: #B89470;
-    /* background-color: #A9A9A9; /* Branco translúcido */
     font-family: 'Open Sans', sans-serif;
     width: 100%;
     position:relative;
     font-size: 10px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para o texto */
-    
 }
-
 .content p{
     text-align: justify;
     color: #fff;
 }
-
 .content h3, h2 {
     text-align:center;
     color: #fff;
 }
-
-
 .content-articles {
     padding: 10px 40px 10px 40px;
     background-color: rgba(255, 255, 255, 0.2);
@@ -120,21 +95,17 @@ footer p{
     font-family: 'Open Sans', sans-serif;
     color: #fff;
 }
-
 .content-articles ol, ul{
     padding-left: 20px;
     text-align: justify;
 }
-
 .container-iframe {
     position: relative;
     overflow: hidden;
     margin: 0 auto; /* Center horizontally */
     width: 100%;
     padding-top: 56.25%; /* 16:9 Aspect Ratio*/
-    
   }
-  
   /* Then style the iframe to fit in the container div with full height and width */
   .responsive-iframe {
     position: absolute;
@@ -142,34 +113,23 @@ footer p{
     width: 100%;
     height: 100%;
   }
-
 /* Tablet */
 @media (min-width: 600px) {
     /* Basic reset */
     html{
         height: 100%;
-        
     }
-
-
     body {
-        
         background-color: #F5F5F5; /* Cor bege */
         padding: 0 50px;
-
-        
     }
-
     nav{
         text-align: center;
         color: #fff;
-        
     }
-
     /* Container for the header menu*/
     #menu {
         background-color: #4e4e4e;
-        /* padding: 1em; */
         position: fixed;
         top: 0;
         left: 0;
@@ -178,12 +138,10 @@ footer p{
         z-index: 1000;
         font-family: 'Open Sans', sans-serif;
     }
-
     #menu h3{
         text-align: center;
         color: #fff;
     }
-
     footer{
         background-color: #4e4e4e;
         position: fixed;
@@ -197,25 +155,20 @@ footer p{
         right: 0;
         left: 0;
     }
-
     footer p{ 
         display: inline;
         font-size: clamp(0.5rem, 2vw, 6rem);
     }
-
     /* Navigation container */
     .nav-menu {
         display: flex;
         justify-content: space-between;
     }
-
     /* Each nav item */
     .nav-menu td {
         margin: 0 10px;
         padding: 0 10px;
-        
     }
-
     /* Link styles */
     .nav-menu a {
         font-family: 'Open Sans', sans-serif;
@@ -225,40 +178,32 @@ footer p{
         padding: 10px 15px;
         display: block;
         transition: background-color 0.3s ease;
-        
     }
-
     /* Hover effect */
     .nav-menu a:hover {
         background-color: #929292;
     }
-
     .content {
         margin-top: 10px; /* Same height as the header to avoid content being hidden */
         flex: 1 1 auto;  /*grow vertically*/
         padding-top: 2rem;
         padding-bottom: 3.5rem; /* Space available between last element and bottom border of the page */
         background-color: #B89470;
-        /* background-color: #A9A9A9; /* Branco translúcido */
         font-family: 'Open Sans', sans-serif;
         width: 100%;
         position:relative;
         font-size: 2vw;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para o texto */
-        
     }
-
     .content p{
         text-align: justify;
         color: #fff;
         font-size: clamp(0.5rem, 2vw, 6rem);
     }
-
     .content h3, h2 {
         text-align:center;
         color: #fff;
     }
-
     .content-articles {
         padding: 10px 40px 10px 40px;
         background-color: rgba(255, 255, 255, 0.2);
@@ -267,16 +212,13 @@ footer p{
         font-family: 'Open Sans', sans-serif;
         color: #fff;
     }
-
     .container-iframe {
         position: relative;
         overflow: hidden;
         margin: 0 auto; /* Center horizontally */
         width: 80%;
         padding-top: 42.86%; /* 21:9 Aspect Ratio*/
-        
     }
-    
     /* Then style the iframe to fit in the container div with full height and width */
     .responsive-iframe {
         position: absolute;
@@ -285,31 +227,21 @@ footer p{
         height: 100%;
     }
 }
-  
   /* Desktop */
 @media (min-width: 992px) {
     /* Basic reset */
     html{
         height: 100%;
         font-size: 1vw;
-        
     }
-
-
     body {
-        
         background-color: #F5F5F5; /* Cor bege */
         padding: 0 50px;
-
-        
     }
-
     nav{
         text-align: center;
         color: #fff;
-        
     }
-
     /* Container for the header menu*/
     #menu {
         background-color: #4e4e4e;
@@ -321,7 +253,6 @@ footer p{
         z-index: 1000;
         font-family: 'Open Sans', sans-serif;
     }
-
     footer{
         background-color: #4e4e4e;
         position: fixed;
@@ -335,25 +266,20 @@ footer p{
         right: 0;
         left: 0;
     }
-
     footer p{ 
         display: inline;
         font-size: 16px;
     }
-
     /* Navigation container */
     .nav-menu {
         display: flex;
         justify-content: space-between;
     }
-
     /* Each nav item */
     .nav-menu td {
         margin: 0 10px;
         padding: 0 10px;
-        
     }
-
     /* Link styles */
     .nav-menu a {
         font-family: 'Open Sans', sans-serif;
@@ -363,14 +289,11 @@ footer p{
         padding: 10px 15px;
         display: block;
         transition: background-color 0.3s ease;
-        
     }
-
     /* Hover effect */
     .nav-menu a:hover {
         background-color: #929292;
     }
-
     .content {
         margin-top: 10px; /* Same height as the header to avoid content being hidden */
         flex: 1 1 auto;  /*grow vertically*/
@@ -382,20 +305,16 @@ footer p{
         position:relative;
         font-size: 16px;
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra para o texto */
-        
     }
-
     .content p{
         text-align: justify;
         color: #fff;
         font-size: clamp(0.5rem, 1.5vw, 6rem);
     }
-
     .content h3, h2 {
         text-align:center;
         color: #fff;
     }
-
     .content-articles {
         padding: 10px 40px 10px 40px;
         background-color: rgba(255, 255, 255, 0.2);
@@ -404,21 +323,17 @@ footer p{
         font-family: 'Open Sans', sans-serif;
         color: #fff;
     }
-
     .content-articles ol, ul{
         padding-left: 30px;
         text-align: justify;
     }
-
     .container-iframe {
         position: relative;
         overflow: hidden;
         margin: 0 auto; /* Center horizontally */
         width: 70%;
         padding-top: 42.86%; /* 21:9 Aspect Ratio*/
-        
     }
-    
     /* Then style the iframe to fit in the container div with full height and width */
     .responsive-iframe {
         position: absolute;
