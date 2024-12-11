@@ -57,6 +57,9 @@ header h1 {
     margin: 0 10px;
     padding: 0 10px;
 }
+.column {
+    flex: 1; /* Equal column width */
+}
 /* Link styles */
 .nav-menu a {
     font-family: 'Open Sans', sans-serif;
@@ -392,6 +395,9 @@ input[type="submit"]:hover {
         display: flex;
         justify-content: space-between;
     }
+    .column {
+        flex: 1; /* Equal column width */
+    }
     /* Each nav item */
     .nav-menu td {
         margin: 0 10px;
@@ -715,6 +721,9 @@ input[type="submit"]:hover {
     .nav-menu td {
         margin: 0 10px;
         padding: 0 10px;
+    }
+    .column {
+        flex: 1; /* Equal column width */
     }
     /* Link styles */
     .nav-menu a {
